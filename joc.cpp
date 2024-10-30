@@ -86,14 +86,11 @@ int main() {
 
 
 
-    char respuesta[5] = 'radio';
+    char respuesta[5] = {'radio'};
 
     printf("Este es el reto del que tengo aqui colgado, el ahorcado\n");
 
     for (int i = 0; i < 5; i++) {
-
-        respuesta[i] = '-';
-        printf(respuesta[i]);
 
     }
 
